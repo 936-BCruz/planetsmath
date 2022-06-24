@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2022 Fermi Research Alliance, LLC
 # SPDX-License-Identifier: Apache-2.0
 
-
+# comment
 def sum_function(list):
     """
     A function which takes a list as an argument and
@@ -35,3 +35,7 @@ def make_author_print(author="Guillermo"):
     This should be made with spaces now
     """
     print("Guillermo Made a fork")
+
+
+def square_array(list):
+    return [item * item for item in list]
